@@ -1,0 +1,13 @@
+package [(${config.packageName})].module.[(${table.vueConfig.catalog})].mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import [(${config.packageName})].module.[(${table.vueConfig.catalog})].entity.[(${table.className})]Entity;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+* [(${table.describe})]
+*/
+@Mapper
+public interface [(${table.className})]Mapper extends BaseMapper<[(${table.className})]Entity> {
+
+}

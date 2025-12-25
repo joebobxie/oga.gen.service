@@ -2,6 +2,7 @@ package com.gen.service.module.db.dto;
 
 
 import com.gen.service.module.db.vo.TableVO;
+import com.gen.service.module.db.vo.VueConfigVO;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
